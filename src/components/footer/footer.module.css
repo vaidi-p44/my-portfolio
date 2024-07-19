@@ -64,7 +64,7 @@ max-width: 400px;
     gap: 50px;
     margin-bottom: 50px;
 }
-@media(max-width:768px){
+@media(max-width:640px){
     .footer{
         margin: 50px 70px;
     }
@@ -76,5 +76,12 @@ max-width: 400px;
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
+    }
+    .topright{
+        flex-direction: column;
+    }
+    .emailinput input{
+        padding: 15px,40px;
+        font-size: 20px;
     }
 }

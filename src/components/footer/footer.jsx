@@ -13,7 +13,6 @@ const Footer=()=>{
             </div>
             <div className={styles.topright}>
                 <div className={styles.emailinput}>
-                
                 <input type="email" placeholder="Enter your email"/>
                 </div>
                <div className={styles.subscribe}>   Subscribe </div>
